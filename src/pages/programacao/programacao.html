@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Programação</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+<ion-list>
+	<ion-item *ngFor="let d of dados">
+		<h2><b>{{ d.curso }}</b></h2>
+		<h3><b>Ministrante:</b> {{ d.ministrante }}</h3>
+		<h3><b>Tipo:</b> {{ d.tipo }}</h3>
+		<h3><b>Local:</b> {{ d.local }}</h3>
+		<h3><b>Data:</b> {{ d.data }}</h3>
+		<h3><b>Horário:</b> {{ d.horario }}</h3>
+	</ion-item>
+</ion-list>
+</ion-content>

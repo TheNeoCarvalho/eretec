@@ -1,14 +1,33 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="card-background-page">
+<ion-slides pager>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-slide style="background-color: #fff; color:black">
+  <img src="../assets/imgs/slide01.gif">
+  </ion-slide>
+
+  <ion-slide style="background-color: #fff">
+  <img src="../assets/imgs/calendar.png">
+    <h1 (click)="GoProgramcao()">Veja a Programação</h1>
+  </ion-slide>
+
+  <ion-slide style="background-color: #fff; color:black">
+  <ion-card>
+    <img src="../assets/imgs/cursos.png"/>
+  </ion-card>
+
+  <ion-card>
+    <img src="../assets/imgs/palestras.png"/>
+  </ion-card>
+
+  <ion-card>
+    <img src="../assets/imgs/ctf.png"/>
+  </ion-card>
+
+  <ion-card>
+    <img src="../assets/imgs/jogos.png"/>
+  </ion-card>
+
+  </ion-slide>
+
+</ion-slides>
 </ion-content>
