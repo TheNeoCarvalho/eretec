@@ -11,7 +11,7 @@ import "rxjs/add/operator/map";
 })
 export class ProgramacaoPage {
 
-  private url:string = "http://192.168.117.122:3000/cursos";
+  private url:string = "http://localhost:3000/cursos";
   public dados: Array<{}>;
 
   constructor(public navCtrl: NavController, 
