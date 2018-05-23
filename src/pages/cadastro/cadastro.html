@@ -1,0 +1,54 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cadastro de Evento</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>Nome</ion-label>
+      <ion-input type="text" [(ngModel)]="evento.curso"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label stacked>Tipo</ion-label>
+      <ion-input type="text" [(ngModel)]="evento.tipo"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Ministrante</ion-label>
+      <ion-input type="text" [(ngModel)]="evento.ministrante"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Foto</ion-label>
+      <ion-input type="text" [(ngModel)]="evento.foto"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Horário</ion-label>
+      <ion-input type="text"[(ngModel)]="evento.horario"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Local</ion-label>
+      <ion-input type="text" [(ngModel)]="evento.local"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Data</ion-label>
+      <ion-input type="text" [(ngModel)]="evento.data"></ion-input>
+    </ion-item>
+
+    <ion-item>
+    <button (click)="Evento(evento)" block ion-button color="primary">Cadastrar Evento</button>
+    </ion-item>
+  
+  </ion-list>
+
+</ion-content>

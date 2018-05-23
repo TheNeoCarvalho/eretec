@@ -3,6 +3,7 @@ import { IonicPageModule } from 'ionic-angular';
 import { ProgramacaoPage } from './programacao';
 
 @NgModule({
+  
   declarations: [
     ProgramacaoPage,
   ],
